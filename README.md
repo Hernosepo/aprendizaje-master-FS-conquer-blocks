@@ -17,14 +17,14 @@ Este repositorio es un registro vivo de mi proceso de aprendizaje en el Máster 
 
 ## 📁 Estructura del repositorio
 
-/tema-1-intro-python
-/tema-2-estructuras
-/tema-3-bucles-condicionales
-/tema-4-arrays-numpy
-/tema-5-tuplas-sets
-/tema-6-diccionarios
-/proyectos
-/cheatsheets
+- /tema-1-intro-python
+- /tema-2-estructuras
+- /tema-3-bucles-condicionales
+- /tema-4-arrays-numpy
+- /tema-5-tuplas-sets
+- /tema-6-diccionarios
+- /proyectos
+- /cheatsheets
 
 ---
 
