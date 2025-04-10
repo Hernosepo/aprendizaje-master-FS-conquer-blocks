@@ -1,2 +1,44 @@
+# Archivos de sistema (macOS)
 .DS_Store
-ejercicios/.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icono de carpeta personalizada
+Icon
+
+# Archivos creados por el Finder
+._*
+
+# Archivos de VS Code
+.vscode/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+
+# Archivos de log o temporales
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Archivos de Jupyter
+.ipynb_checkpoints/
+
+# Archivos de configuración de GitHub Desktop
+*.orig
+
+# Archivos comprimidos
+*.zip
+*.tar.gz
+*.rar
+*.7z
