@@ -50,6 +50,22 @@ personal_agregado = {
 
 ---
 
+## 📷 Capturas
+
+### Menú principal
+![Menú principal](./capturas/menu_principal.png)
+
+### Agregar persona
+![Agregar persona](./capturas/agregar_persona.png)
+
+### Agregar tarea
+![Agregar tarea](./capturas/agregar_tarea.png)
+
+### Asignar tarea
+![Asignar tarea](./capturas/asignar_tarea.png)
+
+---
+
 ## 📘 Documentación adicional
 
 - 📄 [Bitácora de desarrollo](./Bitacora_Tema6_Administracion_Proyectos.md)
