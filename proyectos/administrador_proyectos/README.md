@@ -1,4 +1,3 @@
-
 # 🗂 Administrador de Proyectos
 
 Este proyecto fue desarrollado como parte del Máster Full Stack en Conquer Blocks, dentro del Tema 6: Diccionarios en Python.  
@@ -51,25 +50,6 @@ personal_agregado = {
 
 ---
 
-## 🧪 Cómo ejecutar
-
-1. Clonar el repositorio:
-```bash
-git clone https://github.com/Hernosepo/aprendizaje-master-FS-conquer-blocks.git
-```
-
-2. Navegar a la carpeta del proyecto:
-```bash
-cd aprendizaje-master-FS-conquer-blocks/proyectos/administrador_proyectos
-```
-
-3. Ejecutar el script principal:
-```bash
-python administrador.py
-```
-
----
-
 ## 📘 Documentación adicional
 
 - 📄 [Bitácora de desarrollo](./Bitacora_Tema6_Administracion_Proyectos.md)
@@ -86,7 +66,6 @@ python administrador.py
 
 ## 🎯 Comentario final
 
-Este proyecto representa un hito técnico y personal dentro del proceso de formación.  
-A través del trabajo sostenido y la comprensión profunda del control de flujo, este ejercicio se transformó en una pieza funcional, clara y estructuralmente sólida.  
+Este proyecto representa un hito técnico y personal dentro de mi proceso de formación.  
+Con trabajo, esfuerzo y tratando de entender el control del flujo de la información, este ejercicio se transformó en una pieza sólida del trabajo que quiero realizar algun día de manera profesional.  
 Más que un script, es una muestra real de evolución en lógica, práctica y pensamiento programático.
-
