@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="description" content="" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:image:alt" content="" />
+
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="icon.png" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <h1>CSS: SELECTORES II</h1>
+    <h2>Ejercicios</h2>
+
+    <p>1. Selecciona los elementos div que sean hijos de otro div</p>
+    <pre><code>div > div { 
+      background: red; 
+      }</code></pre>
+
+    <p>2. Selecciona los hijos de los elementos p</p>
+    <pre><code>p > \* { 
+      color: blue; 
+    }</code></pre>
+
+    <p>3. Selecciona los elementos p que sean hijos de article.</p>
+    <pre><code>article > p { 
+      font-size: 50px; 
+    }</code></pre>
+
+    <p>4. Selecciona los p que esten dentro de un article.</p>
+    <pre><code>article p {
+      color: green;
+    }</code></pre>
+
+    <p>5. Selecciona los titulos h1 y los h3</p>
+    <pre><code>h1, h3 { 
+      background: grey; 
+    }</code></pre>
+
+    <p>6. Selecciona los ol que esten dentro de body</p>
+    <pre><code>body ol { 
+      font-size: 50px 
+    }</code></pre>
+
+    <p>7. Cualquier elemento que tenga la clase “amarillo"</p>
+    <pre><code>.amarillo { 
+      color: red; 
+    }
+</code></pre>
+
+    <p>8. Los elementos ul que sean hijos de body</p>
+    <pre><code>body > ul { 
+      font-size: 50px; 
+    }</code></pre>
+
+    <p>9. Los elementos a que sean hijos de p</p>
+    <pre><code> p > a { 
+      font-weight: bold; 
+    }</code></pre>
+
+    <p>10. Selecciona el elemento con id “platano"</p>
+    <pre><code>#platano { 
+      color: green; 
+    }</code></pre>
+
+    <p>11. Todos los elementos div que sean hermanos de un elemento h2</p>
+    <pre><code>h2 + div { 
+      font-weight: bold; 
+    }</code></pre>
+
+    <p>
+      12. Todos los elementos p con clase = paisa, descendientes de un elemento
+      ul
+    </p>
+    <pre><code>ul p.paisa { 
+      color: red; 
+    }</code></pre>
+
+    <p>
+      13. Selecciona los h1, h2, h3 que tengan la clase "headertitle", hijos del
+      header
+    </p>
+    <pre><code>header > h1.headertitle,
+header > h2.headertitle, 
+header > h3.headertitle {
+      font-size: 50px;
+    }</code></pre>
+    <script src="js/app.js"></script>
+
+    <li><a href="index.html">Atras</a></li>
+  </body>
+</html>

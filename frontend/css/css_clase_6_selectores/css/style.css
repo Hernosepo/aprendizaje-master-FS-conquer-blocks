@@ -1,0 +1,13 @@
+p {
+  font-weight: bold;
+}
+pre {
+  background-color: lightgray;
+  padding: 15px;
+  width: 30%;
+}
+code {
+  color: black;
+  font: "Courier New", Courier, monospace;
+  font-size: 10pt;
+}
