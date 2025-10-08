@@ -1,0 +1,49 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: black;
+  font-size: 0.9em;
+  line-height: 1.4em;
+}
+
+.articulo h2 {
+  color: #cc6600;
+  font-size: 1.6em;
+  line-height: 1.2;
+}
+
+.articulo a {
+  color: #cc6600;
+}
+
+#menu a {
+  color: white;
+  font-size: 1.3em;
+}
+
+#menu {
+  background-color: blue;
+}
+
+#lateral {
+  font-size: 0.9em;
+}
+
+#lateral span.fecha {
+  color: #999;
+}
+
+#noticias h3 {
+  color: #003366;
+}
+
+#publicidad p {
+  color: #555;
+}
+
+#publicidad a {
+  color: #cc6600;
+}

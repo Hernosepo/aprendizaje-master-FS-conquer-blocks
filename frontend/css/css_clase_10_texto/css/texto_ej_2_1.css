@@ -1,0 +1,29 @@
+html {
+  font-family: Arial, Verdana, sans-serif;
+}
+
+header h1,
+header h2 {
+  all: initial;
+}
+
+body h1 {
+  font-size: 32px;
+  font-family: Georgia, serif;
+  font-variant: small-caps;
+}
+
+body h2 {
+  font-size: 24px;
+  font-family: Georgia, serif;
+  font-variant: small-caps;
+  font-style: italic;
+}
+
+ul li {
+  font-weight: bold;
+}
+
+ul strong {
+  font-weight: normal;
+}

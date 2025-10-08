@@ -1,0 +1,16 @@
+header h1 {
+  text-align: left;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+ul strong {
+  text-decoration: underline;
+}

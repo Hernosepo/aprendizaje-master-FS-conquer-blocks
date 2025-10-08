@@ -1,0 +1,43 @@
+body {
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+header h1,
+header h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: left;
+  color: black;
+  background-color: white;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+
+h1 {
+  font-family: Cambria, Times, "Times New Roman", serif;
+  color: #1f497d;
+  background-color: #bfbfbf;
+  font-size: 24px;
+  letter-spacing: 0.5em;
+  word-spacing: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: Cambria, Times, "Times New Roman", serif;
+  color: #632423;
+  font-size: 18px;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+}
+
+ul li {
+  font-style: italic;
+  font-weight: bold;
+}
+
+ul strong {
+  font-variant: small-caps;
+  font-style: normal;
+  font-weight: normal;
+}
