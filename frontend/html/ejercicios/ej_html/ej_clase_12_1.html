@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="description" content="" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:image:alt" content="" />
+
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="icon.png" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <main>
+      <h1>Ejercicios clase 12.1</h1>
+
+      <h3>Formulario de registro - mi Web</h3>
+      <form action="" method="get">
+        <fieldset>
+          <legend>Formulario de contacto</legend>
+          <br />
+          <label for="nombre">Nombre:</label><br />
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            required
+            maxlength="50"
+          />
+
+          <br /><label for="apellido">Apellido:</label><br />
+          <input
+            type="text"
+            id="apellido"
+            name="apellido"
+            required
+            maxlength="50"
+          />
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Género</legend>
+          <input type="radio" id="genero_m" name="genero" value="masculino" />
+          <label for="genero_m">Masculino</label><br />
+          <input type="radio" id="genero_f" name="genero" value="femenino" />
+          <label for="genero_f">Femenino</label><br />
+          <input type="radio" id="genero_o" name="genero" value="otro" />
+          <label for="genero_o">Otro</label><br />
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Información de contacto</legend>
+          <br /><label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" required /> <br />
+
+          <br /><label for="provincia">Provincia:</label><br />
+          <select name="provincia" id="poblacion">
+            <option value="cero">-</option>
+            <option value="madrid">Madrid</option>
+            <option value="alicante">Alicante</option>
+            <option value="sevilla">Sevilla</option>
+            <option value="valencia">Valencia</option></select
+          ><br />
+
+          <br /><label for="mensaje">Mensaje:</label><br />
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            cols="30"
+            rows="5"
+            placeholder="Escribe aquí el contenido de tu consulta"
+          ></textarea>
+          <br />
+        </fieldset>
+
+        <fieldset>
+          <legend>Suscripción</legend>
+          <br /><input type="checkbox" id="condiciones" name="condiciones" />
+          <label for="condiciones"
+            >Declaro haber leído y aceptar las condiciones generales del
+            programa y la normativa sobre protección de datos</label
+          >
+          <br /><input
+            type="checkbox"
+            id="suscripcion"
+            name="suscripcion"
+            checked
+          />
+          <label for="suscripcion"
+            >Deseo recibir información de novedades y ofertas.</label
+          >
+          <br />
+        </fieldset>
+
+        <br /><button type="submit">Enviar</button>
+      </form>
+
+      <p><a href="ej_clase_12.html">Atras</a></p>
+    </main>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
