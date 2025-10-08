@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="description" content="" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:image:alt" content="" />
+
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="icon.png" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <header>
+      <h1>CSS: SELECTORES IV</h1>
+    </header>
+
+    <main>
+      <p>1. Selecciona los elementos div que sean hijos de otro div</p>
+      <pre><code>
+        div > div {
+        background: red;
+        }
+      </code></pre>
+
+      <p>
+        2. Selecciona el último elemento de un grupo de elementos hermanos li
+      </p>
+      <pre><code>
+        li:last-child {
+        background: lightgrey;
+        }
+      </code></pre>
+
+      <p>3. Selecciona los hijos pares de un elemento li</p>
+      <pre><code>
+        li *:nth-child(even) {
+        background: lightblue;
+        }
+      </code></pre>
+
+      <p>4. Selecciona los hijos impares de un elemento li</p>
+      <pre><code>
+        li > *:nth-child(odd) {
+        background: lightblue;
+        }
+      </code></pre>
+
+      <p>5. Selecciona los elementos p que sean hijos de article</p>
+      <pre><code>
+        article > p {
+        background: lightgreen;
+        }
+      </code></pre>
+
+      <p>6. Selecciona los p que esten dentro de un article</p>
+      <pre><code>
+        article p {
+        background: lightgreen;
+        }
+      </code></pre>
+
+      <p>7. Selecciona los titulos principal h1 y los h3</p>
+      <pre><code>
+        h1, h3 {
+        font-size: 40px;
+        }
+      </code></pre>
+
+      <p>8. Selecciona los ol que esten dentro de body</p>
+      <pre><code>
+        body ol {
+        background: lightyellow;
+        }
+      </code></pre>
+
+      <p>9. Los elementos ul que sean hijos de body</p>
+      <pre><code>
+        body > ul {
+        text-align: center;
+        }
+      </code></pre>
+
+      <p>10. Los elementos a que sean hijos de p</p>
+      <pre><code>
+        p > a {
+        color: orange;
+        }
+      </code></pre>
+    </main>
+
+    <li><a href="index.html">Atras</a></li>
+    <script src="js/app.js"></script>
+  </body>
+</html>

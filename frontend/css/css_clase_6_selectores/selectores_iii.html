@@ -33,6 +33,68 @@
         color: red;
         font-weight: bold;
       }</code></pre>
+
+      <p>2. Checkboxs marcados hijos de un form</p>
+      <pre><code>
+        form > input[type="checkbox"]:checked {
+        font-weight: bold;
+      }</code></pre>
+
+      <p>3. Selecciona el último p que sea descendiente de article</p>
+      <pre><code>
+        article p:last-of-type {
+        background: yellow;
+      }</code></pre>
+
+      <p>4. Seleccionar el segundo hijo de un elemento section</p>
+      <pre><code>
+        section :nth-child(2) {
+        background: lightblue;  
+        }</code></pre>
+
+      <p>5. Seleccionar los hijos pares de un elemento ol</p>
+      <pre><code>
+          ol :nth-child(even) {
+          background: green;
+          }</code></pre>
+
+      <p>6. Seleccionar el antepenúltimo li de un ul de longitud indefinida</p>
+      <pre><code>
+        ul li:nth-last-child(3) {
+        background: orange;
+        }
+      </code></pre>
+
+      <p>7. El segundo a de dentro de un p</p>
+      <pre><code>
+        p a:nth-of-type(2) {
+        font-size; 50px;
+        }
+      </code></pre>
+
+      <p>8. Los button que sean hijos único</p>
+      <pre><code>
+        button:only-child {
+        background: purple;
+        color: white;
+        }
+      </code></pre>
+
+      <p>9. Los span que sean primeros hijos de un p</p>
+      <pre><code>
+        p span:first-child {
+        color: red;
+        font-weight: bold;
+        }
+      </code></pre>
+
+      <p>10. Penúltimo hijo de body</p>
+      <pre><code>
+        body :nth-last-child(2) {
+        background: black;
+        color: white;
+        }
+      </code></pre>
     </main>
 
     <li><a href="index.html">Atras</a></li>
