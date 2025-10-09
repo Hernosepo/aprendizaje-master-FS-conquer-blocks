@@ -1,25 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poller+One&display=swap");
 
 p:first-of-type {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Geneva;
 }
 
 p:nth-of-type(2) {
-  font-family: didot, serif;
+  font-family: didot;
 }
 
 p:nth-of-type(3) {
-  font-family: fremono, monospace;
+  font-family: freemono, monospace;
 }
 
 p:nth-of-type(4) {
-  font-family: "Roboto", sans-serif;
+  font-family: "Playwrite DE SAS", serif;
 }
 
 p:nth-of-type(5) {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
 }
 
 p:nth-of-type(6) {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poller One";
 }
