@@ -7,13 +7,7 @@
     <title>Cursos de programación | Academia Conquer | Contacto</title>
 
     <link rel="stylesheet" href="css/style.css" />
-    <meta name="description" content="" />
-
-    <meta property="og:title" content="" />
-    <meta property="og:type" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
-    <meta property="og:image:alt" content="" />
+    <meta name="description" content="Contacta con nosotros" />
 
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" href="/icon.svg" type="image/svg+xml" />
@@ -25,36 +19,66 @@
 
   <body>
     <header>
-      <img src="../img/logo_conquer.avif" alt="logo_conquer" />
+      <figure>
+        <img src="../img/logo_conquer.avif" alt="logo_conquer" />
+      </figure>
+      <nav>
+        <ul>
+          <li><a href="../html/index.html">Home</a></li>
+          <li><a href="../html/quienes_somos.html">Quienes somos</a></li>
+          <li><a href="../html/cursos.html">Cursos</a></li>
+          <li><a href="../html/noticias.html">Blog</a></li>
+          <li><a href="../html/registro.html">Registro</a></li>
+          <li><a href="../html/login.html">Login</a></li>
+          <li>Contacto</li>
+          <li><a href="../html/aviso_legal.html">Aviso Legal</a></li>
+        </ul>
+      </nav>
     </header>
     <a href="index.html">Volver</a>
     <main>
       <h1>Contacto</h1>
-      <form action="">
-        <br /><label for="nombre">Nombre:</label> <br /><input
-          type="text"
-          id="nombre"
-          name="nombre"
-          required
-        />
+      <section>
+        <form action="">
+          <br /><label for="nombre">Nombre:</label> <br /><input
+            type="text"
+            id="nombre"
+            name="nombre"
+            required
+          />
 
-        <br /><label for="email">Email:</label> <br /><input
-          type="email"
-          id="email"
-          name="email"
-          required
-        />
+          <br /><label for="email">Email:</label> <br /><input
+            type="email"
+            id="email"
+            name="email"
+            required
+          />
 
-        <br /><label for="mensaje">Mensaje:</label> <br /><textarea
-          id="mensaje"
-          name="mensaje"
-          required
-        ></textarea>
+          <br /><label for="mensaje">Mensaje:</label> <br /><textarea
+            id="mensaje"
+            name="mensaje"
+            required
+          ></textarea>
 
-        <br /><button type="submit">Enviar</button>
-      </form>
+          <br /><button type="submit">Enviar</button>
+        </form>
+      </section>
+      <section>
+        <h2>Nuestra ubicación</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12422.173779256553!2d-77.01501846313475!3d38.88868624173462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390feef68ef83a4d%3A0x46cbb296f4de3eec!2sBiblioteca%20del%20Congreso%20de%20Estados%20Unidos!5e0!3m2!1ses-419!2sus!4v1760118911001!5m2!1ses-419!2sus"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
     </main>
-    <footer>Copyright © 2025 <a href="#">Aviso Legal</a></footer>
+    <footer>
+      Copyright © 2025 <a href="../html/aviso_legal.html">Aviso Legal</a>
+    </footer>
     <script src="js/app.js"></script>
   </body>
 </html>

@@ -7,13 +7,7 @@
     <title>Cursos de programación | Academia Conquer | Login</title>
 
     <link rel="stylesheet" href="css/style.css" />
-    <meta name="description" content="" />
-
-    <meta property="og:title" content="" />
-    <meta property="og:type" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
-    <meta property="og:image:alt" content="" />
+    <meta name="description" content="Ingresa a nuestro portal educativo" />
 
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" href="/icon.svg" type="image/svg+xml" />
@@ -25,37 +19,54 @@
 
   <body>
     <header>
-      <img src="../img/logo_conquer.avif" alt="logo_conquer" />
+      <figure>
+        <img src="../img/logo_conquer.avif" alt="logo_conquer" />
+      </figure>
+      <nav>
+        <ul>
+          <li><a href="../html/index.html">Home</a></li>
+          <li><a href="../html/quienes_somos.html">Quienes somos</a></li>
+          <li><a href="../html/cursos.html">Cursos</a></li>
+          <li><a href="../html/noticias.html">Blog</a></li>
+          <li><a href="../html/registro.html">Registro</a></li>
+          <li>Login</li>
+          <li><a href="../html/contacto.html">Contacto</a></li>
+          <li><a href="../html/aviso_legal.html">Aviso Legal</a></li>
+        </ul>
+      </nav>
     </header>
-    <a href="index.html">Volver</a>
     <main>
       <h1>Login</h1>
       <form action="" method="post">
-        <div>
-          <label for="uname"><b>Username</b></label>
-          <br /><input
-            type="text"
-            placeholder="Enter Username"
-            name="uname"
-            required
-          />
-          <br />
+        <fieldset>
+          <legend>Iniciar sesión</legend>
+          <p>
+            <label for="email"><b>Correo electrónico</b></label> <br /><input
+              type="email"
+              placeholder="Enter email"
+              name="email"
+              required
+            />
+          </p>
 
-          <label for="psw"><b>Password</b></label>
-          <br /><input
-            type="password"
-            placeholder="Enter Password"
-            name="psw"
-            required
-          />
           <br />
+          <p>
+            <label for="psw"><b>Password</b></label> <br /><input
+              type="password"
+              placeholder="Enter Password"
+              name="psw"
+              required
+            />
+          </p>
+        </fieldset>
+        <br />
+        <p>
           <button type="submit">Login</button>
-          <br />
           <label>
             <input type="checkbox" checked="checked" name="remember" /> Remember
             me
           </label>
-        </div>
+        </p>
       </form>
     </main>
     <footer>Copyright © 2025 <a href="#">Aviso Legal</a></footer>
