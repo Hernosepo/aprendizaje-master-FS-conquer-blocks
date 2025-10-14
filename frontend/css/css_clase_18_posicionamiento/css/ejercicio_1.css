@@ -1,72 +1,64 @@
 h3 {
   border: 1px solid black;
 }
-div.contenedor_1 {
-  position: relative;
+section.ejercicio_1 div.contenedor_1 {
   border: 1px solid black;
   background-color: lightgrey;
   padding: 20px;
-
-  overflow: auto;
-  margin: 0 auto;
+}
+section.ejercicio_1 div.contenedor_1::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
-div.contenedor_1 p:first-of-type {
-  position: relative;
-  font-weight: bold;
-  display: inline;
+section.ejercicio_1 div.contenedor_1 p:first-of-type {
   float: left;
-}
-div.contenedor_1 p:last-of-type {
   font-weight: bold;
-  display: inline;
+}
+
+section.ejercicio_1 div.contenedor_1 p:last-of-type {
   float: right;
-}
-
-section.ejercicio_2 {
-  position: absolute;
-  top: 400px;
-  width: 90%;
-  border: 1px solid black;
-}
-
-section.ejercicio_2 h3 {
-  margin: 0 auto;
-  border-top: 0px;
+  font-weight: bold;
 }
 
 section.ejercicio_2 div.arriba_izq {
-  background-color: grey;
-  border: 3px solid black;
-  border-style: dotted;
-  width: 33.3%;
-  height: 25%;
   position: relative;
-}
-
-section.ejercicio_2 div.arriba_izq p {
-  margin-left: 10px;
+  left: 10px;
+  top: 10px;
+  border: 1px solid black;
+  background-color: lightcoral;
+  width: 33%;
+  display: inline-block;
+  padding: 20px;
 }
 
 section.ejercicio_2 div.arriba_der {
-  background-color: grey;
-  border: 3px solid black;
-  border-style: dotted;
-  width: 33.3%;
   position: relative;
-  right: -60%;
-}
-
-section.ejercicio_2 div.arriba_der p {
-  position: relative;
-  margin-left: 210px;
-}
-
-section.ejercicio_2 div.texto_centro p {
+  left: 230px;
+  top: 10px;
   border: 1px solid black;
+  background-color: lightcoral;
+  width: 33%;
+  display: inline-block;
+  padding: 20px;
   text-align: right;
-  width: 33.3%;
+}
+
+section.ejercicio_2 div.texto_centro {
   position: relative;
-  left: 35%;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  left: 300px;
+  border: 1px solid black;
+  background-color: lightcoral;
+  width: 40%;
+  display: inline-block;
+  text-align: right;
+}
+
+section.ejercicio_2 div.abajo {
+  border: 1px solid black;
+  background-color: lightcoral;
+  text-align: center;
 }
