@@ -1,0 +1,41 @@
+section {
+  position: relative;
+  width: 700px;
+  height: 350px;
+  background-color: lightgray;
+  font-size: 0;
+}
+
+div {
+  display: inline-block;
+}
+
+div:first-of-type {
+  margin-top: 51px;
+  margin-left: 135px;
+  width: 15%;
+  height: 250px;
+  background-color: red;
+  font-size: 45px;
+}
+
+div:nth-of-type(2) {
+  width: 15%;
+  height: 250px;
+  background-color: blue;
+  font-size: 45px;
+}
+
+div:nth-of-type(3) {
+  width: 15%;
+  height: 250px;
+  background-color: green;
+  font-size: 45px;
+}
+
+div:last-of-type {
+  width: 15%;
+  height: 250px;
+  background-color: yellow;
+  font-size: 45px;
+}

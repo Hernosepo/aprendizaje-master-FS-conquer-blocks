@@ -1,0 +1,33 @@
+section {
+  position: relative;
+  width: 700px;
+  height: 350px;
+}
+
+div {
+  display: inline-block;
+}
+
+div:first-of-type {
+  border: 1px solid black;
+  width: 15%;
+  height: 250px;
+}
+
+div:nth-of-type(2) {
+  border: 1px solid black;
+  width: 15%;
+  height: 250px;
+}
+
+div:nth-of-type(3) {
+  border: 1px solid black;
+  width: 15%;
+  height: 250px;
+}
+
+div:last-of-type {
+  border: 1px solid black;
+  width: 15%;
+  height: 250px;
+}

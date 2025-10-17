@@ -1,0 +1,42 @@
+section {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  background-color: lightgray;
+  padding: 20px;
+}
+div:first-of-type {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+div:nth-of-type(2) {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+div:nth-of-type(3) {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+div:last-of-type {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
