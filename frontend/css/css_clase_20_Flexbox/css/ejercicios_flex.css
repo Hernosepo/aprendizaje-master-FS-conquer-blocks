@@ -45,7 +45,8 @@ header nav ul li a:hover {
   background-color: lightgray;
 }
 
-header.ejercicio_5 .contenedor_imagenes {
-  display: flex;
-  justify-content: space-around;
+section.contenedor_imagenes img {
+  margin: 20px;
+
+  border: 2px dotted black;
 }
