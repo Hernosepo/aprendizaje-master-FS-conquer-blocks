@@ -45,8 +45,60 @@ header nav ul li a:hover {
   background-color: lightgray;
 }
 
-section.contenedor_imagenes img {
-  margin: 20px;
+section.contenedor_imagenes {
+  margin-top: 20px;
+  background-color: lightgray;
+}
 
+section.contenedor_imagenes img {
   border: 2px dotted black;
+}
+
+section.contenedor_imagenes_1 {
+  margin-top: 20px;
+  background-color: lightgray;
+}
+
+section.contenedor_imagenes_1 img {
+  margin-right: 20px;
+  border: 2px dotted black;
+}
+
+header.ejercicio_7 h1.viajes {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 100;
+  text-align: right;
+}
+
+section.galeria {
+  display: flex;
+}
+
+section.galeria article {
+  justify-content: center;
+  padding: 10px;
+}
+
+section.galeria article:first-of-type {
+  background-color: teal;
+}
+
+section.galeria article:nth-of-type(2) {
+  background-color: greenyellow;
+}
+
+section.galeria article:last-of-type {
+  background-color: steelblue;
+}
+
+section.galeria article h3 {
+  font-family: "Courier New", Courier, monospace;
+
+  text-align: center;
+}
+
+section.galeria article p {
+  font-family: "Courier New", Courier, monospace;
+
+  text-align: justify;
 }
