@@ -1,0 +1,51 @@
+header h1 {
+  background-color: black;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  padding: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+header nav {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: gray;
+}
+
+header nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+header.ejercicio_3 nav ul {
+  justify-content: space-between;
+}
+
+header.ejercicio_4 nav {
+  max-width: 400px;
+}
+header.ejercicio_4 nav ul {
+  flex-direction: column;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 10px 20px;
+  display: block;
+}
+header nav ul li a:hover {
+  color: black;
+  background-color: lightgray;
+}
+
+header.ejercicio_5 .contenedor_imagenes {
+  display: flex;
+  justify-content: space-around;
+}
