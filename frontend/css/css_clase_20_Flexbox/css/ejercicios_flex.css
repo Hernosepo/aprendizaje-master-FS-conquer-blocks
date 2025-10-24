@@ -102,3 +102,11 @@ section.galeria article p {
 
   text-align: justify;
 }
+
+header.ejercicio_8 h1 {
+  background-color: rgb(145, 233, 56);
+}
+
+header.ejercicio_8 nav.nav_viajes_one {
+  display: flex;
+}
