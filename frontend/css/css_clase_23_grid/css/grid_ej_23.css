@@ -1,0 +1,77 @@
+.grid {
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+  grid-template-rows: 200px 200px 200px 200px;
+  grid-gap: 10px;
+}
+
+div {
+  background-color: purple;
+  color: white;
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid_2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 100px);
+  grid-gap: 10px;
+  border: 5px solid gray;
+}
+
+.grid_2 div {
+  background-color: salmon;
+  color: white;
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid_3 {
+  display: grid;
+  grid-template-columns: 50px 100px;
+  grid-template-rows: 50px 100px 50px;
+  width: max-content;
+  height: max-content;
+  grid-gap: 10px;
+  border: 5px solid gray;
+}
+
+.grid_3 div {
+  background-color: turquoise;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid_4 {
+  display: grid;
+  grid-template-areas:
+    "header header header header"
+    "main main none sidebar"
+    "footer footer footer footer";
+}
+
+.grid_4 div:first-of-type {
+  grid-area: header;
+  background-color: teal;
+}
+.grid_4 div:nth-of-type(2) {
+  grid-area: main;
+  background-color: olive;
+}
+.grid_4 div:nth-of-type(3) {
+  grid-area: sidebar;
+  background-color: maroon;
+}
+
+.grid_4 div:last-of-type {
+  grid-area: footer;
+  background-color: navy;
+}
