@@ -1,0 +1,68 @@
+.tres_de_picas {
+  width: 518px;
+  height: 654px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: grid;
+  grid-template-areas:
+    "num_esq_izq pica_arr ."
+    ". pica_med ."
+    ". pica_aba num_esq_der";
+  place-items: center; /* centra todo el contenido en sus celdas */
+}
+
+.num_esq_izq {
+  grid-area: num_esq_izq;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  height: auto;
+  margin: 0;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.num_esq_izq img {
+  width: 44px;
+  height: 52px;
+}
+
+.num_esq_der {
+  grid-area: num_esq_der;
+  order: 1;
+  rotate: 180deg;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  height: auto;
+  margin: 0;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.num_esq_der img {
+  width: 44px;
+  height: 52px;
+}
+
+.pica_arr {
+  grid-area: pica_arr;
+}
+
+.pica_med {
+  grid-area: pica_med;
+}
+
+.pica_aba {
+  grid-area: pica_aba;
+}
+
+.pica_arr,
+.pica_med,
+.pica_aba {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
