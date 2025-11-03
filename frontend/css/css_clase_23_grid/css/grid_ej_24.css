@@ -1,3 +1,11 @@
+main {
+  display: flex;
+  gap: 20px; /* Espacio entre las cartas */
+  justify-content: center; /* Centra las cartas horizontalmente */
+  align-items: center; /* Centra las cartas verticalmente */
+  margin-top: 20px; /* Espacio superior */
+}
+
 .tres_de_picas {
   width: 518px;
   height: 654px;
@@ -11,7 +19,7 @@
   place-items: center; /* centra todo el contenido en sus celdas */
 }
 
-.num_esq_izq {
+.tres_de_picas .num_esq_izq {
   grid-area: num_esq_izq;
   display: flex;
   flex-direction: column;
@@ -23,12 +31,12 @@
   font-weight: bold;
 }
 
-.num_esq_izq img {
+.tres_de_picas .num_esq_izq img {
   width: 44px;
   height: 52px;
 }
 
-.num_esq_der {
+.tres_de_picas .num_esq_der {
   grid-area: num_esq_der;
   order: 1;
   rotate: 180deg;
@@ -42,27 +50,94 @@
   font-weight: bold;
 }
 
-.num_esq_der img {
+.tres_de_picas .num_esq_der img {
   width: 44px;
   height: 52px;
 }
 
-.pica_arr {
+.tres_de_picas .pica_arr {
   grid-area: pica_arr;
 }
 
-.pica_med {
+.tres_de_picas .pica_med {
   grid-area: pica_med;
 }
 
-.pica_aba {
+.tres_de_picas .pica_aba {
   grid-area: pica_aba;
 }
 
-.pica_arr,
-.pica_med,
-.pica_aba {
+.tres_de_picas .pica_arr,
+.tres_de_picas .pica_med,
+.tres_de_picas .pica_aba {
   display: flex;
   justify-content: center; /* Centra horizontalmente */
   align-items: center; /* Centra verticalmente */
+}
+
+.cuatro_de_picas {
+  width: 518px;
+  height: 654px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: grid;
+  grid-template-areas:
+    "num_esq_izq pica_arr_uno pica_arr_dos ."
+    ". . . ."
+    ". pica_aba_uno pica_aba_dos num_esq_der";
+  place-items: center;
+}
+
+.cuatro_de_picas .num_esq_izq {
+  grid-area: num_esq_izq;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  height: auto;
+  margin: 0;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.cuatro_de_picas .num_esq_izq img {
+  width: 44px;
+  height: 52px;
+}
+
+.cuatro_de_picas .num_esq_der {
+  grid-area: num_esq_der;
+  order: 1;
+  rotate: 180deg;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  height: auto;
+  margin: 0;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.cuatro_de_picas .num_esq_der img {
+  width: 44px;
+  height: 52px;
+}
+
+.cuatro_de_picas .pica_arr_uno {
+  grid-area: pica_arr_uno;
+}
+
+.cuatro_de_picas .pica_arr_dos {
+  grid-area: pica_arr_dos;
+}
+
+.cuatro_de_picas .pica_aba_uno {
+  grid-area: pica_aba_uno;
+  rotate: 180deg;
+}
+
+.cuatro_de_picas .pica_aba_dos {
+  grid-area: pica_aba_dos;
+  rotate: 180deg;
 }
