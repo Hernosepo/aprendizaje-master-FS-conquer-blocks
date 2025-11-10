@@ -1,0 +1,12 @@
+body {
+  background: #eb0e75;
+  background: linear-gradient(
+    90deg,
+    rgba(235, 14, 117, 1) 0%,
+    rgba(125, 0, 163, 1) 68%
+  );
+}
+
+header {
+  display: flex;
+}
